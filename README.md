@@ -279,5 +279,8 @@ A `POST /profile/theme` endpoint sets a `theme` cookie. On every HTML response, 
 
 > [!NOTE]
 > Worker logs are available in real time under **Workers & Pages → your worker → Logs** in the Cloudflare dashboard. This is the fastest way to diagnose runtime issues.
+> 
+
+If you still have a problem or want to bring a fix, don't hesitate to open an Issue or a Pull Request!
 
 
