@@ -4,6 +4,9 @@
 
 This project uses **Cloudflare Workers** to create a transparent redundancy layer in front of your website. When your origin server is reachable, visitors are proxied through normally. When it goes down, a static snapshot is served instead — with zero configuration required from the visitor.
 
+> [!CAUTION]
+> Cloudflare's free tier includes limited monthly build minutes. Frequent `save.sh` runs can exhaust your budget. Find the right balance between backup freshness and build costs — consider running hourly or daily instead of every 30 minutes for production sites.
+
 ---
 
 ## Table of Contents
